@@ -1,11 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Search from './Components/Search.js'
+import LoginC from './Components/LoginC.js'
+import RegisterC from './Components/RegisterC.js'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <Search/>
+
+
   );
 }
 
